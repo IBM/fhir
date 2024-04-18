@@ -116,7 +116,7 @@ public class ImagingStudy extends DomainResource {
         bindingName = "ImagingModality",
         strength = BindingStrength.Value.EXTENSIBLE,
         description = "Type of acquired data in the instance.",
-        valueSet = "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html"
+        valueSet = "http://hl7.org/fhir/ValueSet/media-modality"
     )
     private final List<Coding> modality;
     @Summary
